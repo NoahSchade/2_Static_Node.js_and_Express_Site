@@ -10,6 +10,7 @@ html(class="no-js" lang="en" dir="ltr")
     link(rel='stylesheet', href='/public/css/style.css')
     link(rel='stylesheet', href='/public/css/style_2.css')
     link(rel='stylesheet', href='/public/css/three-image-tansition.css')
+    link(rel='stylesheet', href='/public/css/terminal-window.css')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
@@ -23,9 +24,27 @@ html(class="no-js" lang="en" dir="ltr")
             h5 Noah Schade
 
             //- Add text here to describe who you are, what you do, and why you are so aweome.
+            
             p.text-light
               | Descritption
 
+            .fakeMenu
+            .fakeButtons.fakeClose
+            .fakeButtons.fakeMinimize
+            .fakeButtons.fakeZoom
+            .fakeScreen
+            p.line1
+                | [ “I'm a web developer.”,
+                span.cursor1 _
+            p.line2
+                | “I'm a computer programmer.”,
+                span.cursor2 _
+            p.line3
+                | “Let's work together!” ]
+                span.cursor3 _
+            p.line4
+                | >
+                span.cursor4 _
             //- Add about page route to the href below. 
             a(href='../about') Learn More →
 
