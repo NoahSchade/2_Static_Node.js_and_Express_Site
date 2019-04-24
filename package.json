@@ -1,0 +1,29 @@
+{
+  "name": "static-node.js_and_express_site",
+  "version": "1.0.0",
+  "description": "This is a project for learning the backend part of the JavaScript language. It is also used to showcase the other projects I've built.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahSchade/Static_Node.js_and_Express-Site.git"
+  },
+  "engines": {
+    "node": "11.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoahSchade/Static_Node.js_and_Express-Site/issues"
+  },
+  "homepage": "https://github.com/NoahSchade/Static_Node.js_and_Express-Site#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "pug": "^2.0.3"
+  }
+}

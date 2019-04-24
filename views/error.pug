@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    h1= error.message
+    h2= error.status
+    if error.status === 500
+        h1 Internal Server Error!
+        - console.log('Internal server error!');
+    else if error.status === 404
+        br
+        h4 We could not find the page you requested!
+    br
+    pre= error.stack
+    
+        

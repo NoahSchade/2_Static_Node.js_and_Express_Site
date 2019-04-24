@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "gsdgf",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "/live/1",
+            "github_link": "https://github.com/NoahSchade/a_random_quote_generator",
+            "image_urls": ["/images/project 1/project 1 index page.png", "/images/project 1/Screenshot (8).png", "/images/project 1/Screenshot (9).png", "/images/project 1/Screenshot (11).png"]
+        }, 
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "/live/2",
+            "github_link": "https://github.com/NoahSchade/2_list_pagination_and_filtering",
+            "image_urls": ["../images/project 2/project 2 index page.png", "../images/project 2/Screenshot (15).png", "../images/project 2/Screenshot (14).png", "../images/project 2/Screenshot (13).png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "/live/3",
+            "github_link": "https://github.com/NoahSchade/Interactive-Form",
+            "image_urls": ["../images/project 3/project 3 index page.png" , "../images/project 3/Screenshot (18).png", "../images/project 3/Screenshot (19).png", "../images/project 3/Screenshot (21).png"]
+        }, 
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "/live/4",
+            "github_link": "https://github.com/NoahSchade/OOP-Game-Show-App",
+            "image_urls": ["../images/project 4/project 4 index page.png", "../images/project 4/Screenshot (22).png", "../images/project 4/Screenshot (23).png", "../images/project 4/Screenshot (24).png"]
+        }, 
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "/live/5",
+            "github_link": "https://github.com/NoahSchade/Public_API_Requests",
+            "image_urls": ["../images/project 5/project 5 index page.png", "../images/project 5/Screenshot (25).png", "../images/project 5/Screenshot (26).png", "../images/project 5/Screenshot (28).png"]
+        }
+    ]
+}

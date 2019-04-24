@@ -1,0 +1,1 @@
+This is a project for learning the backend part of the JavaScript language. It is also used to showcase the other projects I've built.

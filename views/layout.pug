@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+html(class="no-js" lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/public/css/foundation.css')
+    link(rel='stylesheet', href='/public/css/style.css')
+    link(rel='stylesheet', href='/public/css/style_2.css')
+    link(rel='stylesheet', href='/public/css/three-image-tansition.css')
+  body
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+      .grid-y.grid-padding-x(style='height: 100%;')
+        block sidebar
+          br
+          .cell.shrink
+            img.thumbnail(src='../images/Noah Schade.jpg')
+          .cell.auto
+
+            //- Add your name here.
+            h5 Noah Schade
+
+            //- Add text here to describe who you are, what you do, and why you are so aweome.
+            p.text-light
+              | Descritption
+
+            //- Add about page route to the href below. 
+            a(href='../about') Learn More →
+
+    .off-canvas-content(data-off-canvas-content='')
+      .title-bar.hide-for-large
+        .title-bar-left
+          button.menu-icon(type='button', data-toggle='my-info')
+
+          //- Add your name here.  This is for the mobile screen sized version.
+          span.title-bar-title Noah Schade
+      block content
+        
+
+      
+  script(src='/public/js/vendor/jquery.js')
+  script(src='/public/js/vendor/what-input.js')
+  script(src='/public/js/vendor/foundation.js')
+  script(src='/public/js/scripts.js')
+  script(src='/public/js/style_2.js')
+
+  script(src='http://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js')
+  script(src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js')
+  script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js')
+  script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/OrbitControls-2.js')
+
+  script(src='/public/js/three-image-transition.js')
