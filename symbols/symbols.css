@@ -28,13 +28,13 @@ body {
 }
 
 .js_chart {
-    position: relative;
-    margin-left: 125px;
+  position: relative;
+  margin-left: 125px;
   }
 
 .node_chart {
-position: relative;
-margin-left: 125px;
+  position: relative;
+  margin-left: 125px;
 }
 
 .chart figcaption {
