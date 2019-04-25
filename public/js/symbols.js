@@ -1,0 +1,1 @@
+$(".symbols").load("/symbols/symbols.html")
