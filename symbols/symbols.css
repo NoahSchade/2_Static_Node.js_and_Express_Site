@@ -14,6 +14,7 @@ body {
 }
 
 .chart {
+  margin-top: 60px;
   position: relative;
   display: inline-block;
   color: #999;
@@ -24,6 +25,16 @@ body {
 .css_chart {
   position: relative;
   margin-left: 125px;
+}
+
+.js_chart {
+    position: relative;
+    margin-left: 125px;
+  }
+
+.node_chart {
+position: relative;
+margin-left: 125px;
 }
 
 .chart figcaption {
@@ -45,6 +56,10 @@ body {
 /* END Container styles */
 
 /* Colors for the circles and positions for the graphics */
+svg .outer_2 {
+    stroke: #f0f0f0;
+}
+
 .html {
   top: 50px;
   left: 45px;
@@ -102,6 +117,17 @@ body {
   /* firefox bug fix - won't rotate at 90deg angles */
   -moz-transform: rotate(-89deg) translateX(-190px);
 }
+
+.outer_2 {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 20;
+    stroke-dasharray: 534;
+    -webkit-animation-play-state: running;
+    
+    /* firefox bug fix - won't rotate at 90deg angles */
+    -moz-transform: rotate(-89deg) translateX(-190px);
+  }
 
 .chart:hover .outer {
   stroke-dashoffset: 534 !important;
