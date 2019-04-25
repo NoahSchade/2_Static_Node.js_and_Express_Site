@@ -1,5 +1,7 @@
 extends layout.pug
 
+
+
 block content 
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
@@ -27,6 +29,7 @@ block content
         a.button.expanded(href= live_link target="_blank") Live Demo
         a.button.expanded(href= github_link target="_blank") GitHub Repo
     
+    
         
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see.
     
@@ -35,11 +38,16 @@ block content
         const image1 = "#{image_urls[1]}";
         const image2 = "#{image_urls[2]}";
 
-  
+    
 
     //- img.image(src= image_urls[1])
     //- img.image(src= image_urls[2])
     //- img.image(src= image_urls[3])
 
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js')
+    script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js')
+    script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/OrbitControls-2.js')
 
+    script(src='/public/js/three-image-transition.js')
             
