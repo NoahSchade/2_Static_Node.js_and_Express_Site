@@ -44,7 +44,7 @@
     border-bottom-right-radius: 5px;
   }
   
-  p {
+  .line {
     position: relative;
     left: 50%;
     margin-left: -7.8em;
