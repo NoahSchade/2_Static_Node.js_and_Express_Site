@@ -22,7 +22,8 @@ block content
       //- Here's what the Pug for each project example should look like. 
 
       each val, index in project
-        .cell
+        .cell            
             a(href= "project/" + index)
-                img.thumbnail(src= project[index].image_urls[0])
+                .boundary
+                    img.thumbnail.projectImg(src= project[index].image_urls[0])
                 h5.letterPopUp= project[index].project_name
