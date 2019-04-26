@@ -14,3 +14,7 @@ p.lead.text-light {
 .portfolio-me a:hover {
     color: #fff;
 }
+
+.portfolio-bio {
+    text-align: justify;
+}
