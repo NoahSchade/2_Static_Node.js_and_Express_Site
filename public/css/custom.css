@@ -4,5 +4,13 @@
 
 p.lead.text-light {
     font-family: 'Open Sans', sans-serif;
+    text-align: justify;
 }
 
+.portfolio-me a {
+    color: #999;
+}
+
+.portfolio-me a:hover {
+    color: #fff;
+}
