@@ -3,7 +3,7 @@
         {
             "id": 0,
             "project_name": "A Random Quote Generator",
-            "description": "gsdgf",
+            "description": "This is my first project on the Techdegree. I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button. More specifically I worked with JavaScript arrays, objects and functions.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "/live/1",
             "github_link": "https://github.com/NoahSchade/a_random_quote_generator",
