@@ -12,7 +12,7 @@
         {
             "id": 1,
             "project_name": "List Pagination and Filtering",
-            "description": "",
+            "description": "Displaying a long list of items on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. In this project, I wrote JavaScript to divide a long list into a series of \"pages\" and improve the user experience of a web page. I also added a search bar feature.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "/live/2",
             "github_link": "https://github.com/NoahSchade/2_list_pagination_and_filtering",
