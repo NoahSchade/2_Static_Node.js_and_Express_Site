@@ -7,12 +7,6 @@ const port = process.env.PORT || 3000;
 
 app.set('view engine', 'pug');
 
-// app.use((req, res, next) => {
-//     const err = new Error();
-//     err.status = 500;
-//     next(err);
-// });
-
 app.use(express.static('.'));
 
 app.get('/live/:num', (req, res) => {
