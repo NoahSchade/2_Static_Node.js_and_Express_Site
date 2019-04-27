@@ -21,7 +21,7 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+            "description": "People use forms to collect information from users for many websites and applications. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "/live/3",
             "github_link": "https://github.com/NoahSchade/Interactive-Form",
@@ -30,7 +30,7 @@
         {
             "id": 3,
             "project_name": "OOP Game Show App",
-            "description": "",
+            "description": "I created a browser-based, word guessing game: \"Phrase Hunter.\" I used JavaScript and OOP (Object-Oriented Programming) to create this game. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard or the computer's keyboard. They have to guess the phrase before they run out of attempts.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "/live/4",
             "github_link": "https://github.com/NoahSchade/OOP-Game-Show-App",
@@ -39,7 +39,7 @@
         {
             "id": 4,
             "project_name": "Public API Requests",
-            "description": "",
+            "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that I can access and display on my own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "/live/5",
             "github_link": "https://github.com/NoahSchade/Public_API_Requests",

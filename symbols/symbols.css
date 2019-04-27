@@ -160,6 +160,12 @@ svg .outer_2 {
   -webkit-animation: show25 2s;
   animation: show25 2s;
 }
+
+@media only screen and (max-width: 1465px) {
+    .chart {
+        display: none;
+    }
+}
 /* END set initial animation values */
 
 /* Keyframes for the initial animation */
