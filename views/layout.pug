@@ -9,9 +9,13 @@ html(class="no-js" lang="en" dir="ltr")
     link(rel='stylesheet', href='/public/css/foundation.css')
     link(rel='stylesheet', href='/public/css/style.css')
     link(rel='stylesheet', href='/public/css/terminal-window.css')
+    //- I got the code for the terminal-window from this website: https://codepen.io/joshcummingsdesign/pen/qOKaWd.
     link(rel='stylesheet', href='/public/css/letter-pop-up.css')
+    //- I got some of the styles for the letters at: https://codepen.io/davidlillo/pen/wZRagx.
     link(rel='stylesheet', href='/public/css/hover-glow-buttons.css')
+    //- I got some of the code for the buttons that glow from: https://codepen.io/Stockin/pen/XPvpoB.
     link(rel='stylesheet', href='/public/css/hover-zoom.css')
+    //- The hover-zoom is code I made on my own.
     link(rel='stylesheet', href='/public/css/custom.css')
     
   body
@@ -23,13 +27,10 @@ html(class="no-js" lang="en" dir="ltr")
             img.thumbnail(src='../images/Noah Schade.jpg')
           .cell.auto
 
-            //- Add your name here.
             h5 Noah Schade
-
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
             
             p.text-light
-            //-   | Descritption
+            //-   | Descritption. The description is in terminal-window animation from the code below.
 
             .fakeMenu
             .fakeButtons.fakeClose
@@ -48,7 +49,7 @@ html(class="no-js" lang="en" dir="ltr")
             p.line.line4
                 | >
                 span.cursor4 _
-            //- Add about page route to the href below. 
+
             a(href='../about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -56,7 +57,6 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title Noah Schade
       block content
         

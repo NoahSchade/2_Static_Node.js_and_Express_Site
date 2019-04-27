@@ -9,10 +9,8 @@ block content
     .grid-x
       .cell.small-6.medium-9.large-9
 
-        //- Use interpolation to dynamically add the project title.
         h1= project_name
-        //- #three-container
-        //- Use interpolation to dynamically add the project description.
+
         p.lead.text-light
           = description
 
@@ -20,38 +18,14 @@ block content
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
 
-        //- Use an `each` iterator to replace the li tags below and interploation to dynamically add the technologies used in each project.
         ul
             each technology in technologies
                 li= technology
 
-        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
         a.button.expanded.glow(href= live_link target="_blank") Live Demo
         a.button.expanded.glow(href= github_link target="_blank") GitHub Repo
-    
-    
-        
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see.
-    
-    //- script.
-    //-     const image1 = "#{image_urls[1]}";
-    //-     const image2 = "#{image_urls[2]}";
-    //-     const image3 = "#{image_urls[3]}";
 
     img.image(src= image_urls[1])
     img.image(src= image_urls[2])
     img.image(src= image_urls[3])
-
-//-     script(src='https://use.typekit.net/lkh0ago.js')
-//-     script.
-//-       try{Typekit.load({ async: true });}catch(e){}
-//-     script(src='https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.20.0/polyfill.js')
-//-     script(src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js')
-//-     script(src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js')
-//-     script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js')
-//-     script(src='https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js')
-//-     script(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/292951/three.bas.js')
-//-   #js-app
-//-   #js-other
-//-   script(src='/react-three-images/js/index.js')
             
