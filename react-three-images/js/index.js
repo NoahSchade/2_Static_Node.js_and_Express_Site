@@ -16,7 +16,7 @@ function _defineProperty(obj, key, value) {if (key in obj) {Object.definePropert
     React.createElement("div", null,
     React.createElement(DissolvingGallery, _extends({
       handleResize: false,
-      delay: 4,
+      delay: 8,
       getSize: () => ({
         width: 1100, // window.innerWidth,
         height: 1100 // window.innerHeight
