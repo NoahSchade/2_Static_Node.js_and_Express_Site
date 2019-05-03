@@ -21,7 +21,7 @@
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "People use forms to collect information from users for many websites and applications. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+            "description": "People use forms to collect information from users for many websites and applications. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.  I also made the form more user-friendly by providing helpful error messages when the user enters invalid information into the form fields.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "/live/3",
             "github_link": "https://github.com/NoahSchade/Interactive-Form",
