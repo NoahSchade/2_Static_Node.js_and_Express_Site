@@ -1,0 +1,1 @@
+Project 6 is this portfolio website. So nothing else besides this "README.md" file will be located in the "project_6 folder.
