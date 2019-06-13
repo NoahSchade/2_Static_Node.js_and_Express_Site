@@ -132,7 +132,8 @@ function addModal(data, index) {
 }
 
 // Add functionality to search bar
-$("#search-submit").click(function(){
+$("#search-submit").click(function(e){
+    e.preventDefault();
     const enteredInput = $("#search-input").val().toLowerCase();
     let cardName;
     let regex = new RegExp("^" + enteredInput + ".*");
