@@ -60,8 +60,12 @@ svg .outer_2 {
     stroke: #f0f0f0;
 }
 
+.top {
+  top: 150px !important;
+}
+
 .html {
-  top: 50px;
+  top: 200px;
   left: 45px;
 }
 
@@ -70,7 +74,7 @@ svg .outer_2 {
 }
 
 .css {
-  top: 55px;
+  top: 205px;
   left: 48px;
 }
 
@@ -79,9 +83,9 @@ svg .outer_2 {
 }
 
 .javascript {
-  max-width: 90px;
-  max-height: 90px;
-  top: 45px;
+  /* max-width: 90px;
+  max-height: 90px; */
+  top: 195px;
   left: 45px;
 }
 
@@ -90,9 +94,7 @@ svg .outer_2 {
 }
 
 .node {
-  width: 200px;
-  height: 200px;
-  top: 45px;
+  top: 195px;
   left: 45px;
 }
 
