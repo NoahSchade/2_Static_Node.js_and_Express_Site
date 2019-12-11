@@ -1,0 +1,19 @@
+//- Including dependencies
+include ../layout
+include ../footer
+
+//- Inserting content from 'layout.pug'
+block content
+
+  //- Inserting page title, form and error message if the title or author field is not entered.
+  h1= title
+  include errors
+  form(action="/books", method="post")
+    include form
+    p
+      input(type='submit', value='Create New Book')
+    p
+      a.button(href='/books') Cancel
+
+  //- Inserting content from 'footer.pug'.
+  block footer

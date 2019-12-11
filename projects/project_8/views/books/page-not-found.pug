@@ -1,0 +1,18 @@
+//- Including dependencies
+include ../layout
+include ../footer
+
+//- Inserting content from 'layout.pug'
+block content
+
+//- If url path is incorrect, show this message.
+h1 Page Not Found
+p Sorry! We couldn't find the page you were looking for.
+br
+
+//- Take user back to the home page if this button is selected.
+p
+  a.button(href='/books') Home
+
+//- Inserting content from 'footer.pug'.
+block footer

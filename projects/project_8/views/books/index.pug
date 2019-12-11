@@ -1,0 +1,52 @@
+//- Including dependencies
+include ../layout
+include ../footer
+
+    //- Inserting content from 'layout.pug'
+    block content
+
+    //- Adding a title to the page.
+    h1 Books
+    p
+      //- Adding a button to the page which brings you to the new book page if the button is selected.  
+      a.button(href='books/new') Create New Book
+
+    //- Creating a table which contains all of the book listings.
+    table
+      thead
+        tr.white
+          th Title
+          th Author
+          th Genre
+          th Year
+      tbody
+        tr.white
+          td.capitalize
+            input(id='search-title' class='search' type='text' name='title' placeholder='Search Title' oninput='searchMashup()')
+          td.capitalize
+            input(id='search-author' class='search' type='text' name='author' placeholder='Search Author' oninput='searchMashup()')
+          td.capitalize
+            input(id='search-genre' class='search' type='text' name='genre' placeholder='Search Genre' oninput='searchMashup()')
+          td.capitalize
+            input(id='search-year' class='search' type='text' name='year' placeholder='Search Year' oninput='searchMashup()')
+      each book in books
+        tr.selectRow
+          td.capitalize.select-title
+            a(href="/books/" + book.id) #{book.title}
+          td.capitalize.select-author #{book.author}
+          td.capitalize.select-genre #{book.genre}
+          td.capitalize.select-year #{book.year}
+
+    //- Adding a header to the bottom of the page whith the text 'Pages'.
+    div#pagesText
+
+    //- Appending all the pagination buttons.
+    div.spaceForButtons
+
+    //- Linking the 'script.js' file to this page.
+    script(src="../scripts/script.js")
+
+    //- Inserting content from 'footer.pug'.
+    block footer
+            
+            

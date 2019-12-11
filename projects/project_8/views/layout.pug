@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    script.
+
+      //- This code reloads the page when the browser's back or forward button is cliked. Without this code, the back and forward button would prevent the page animation from happening.
+      if(performance.navigation.type == 2){
+        location.reload(true);
+      }
+
+    //- This code sets the title 'Books' on the browser tab.
+    title Books
+
+  //- Hide the body and it's contents until the body has finished loading.
+  body(style='visibility: hidden;', onload='js_Load()')
+    block content

@@ -1,0 +1,17 @@
+block footer
+script.
+
+  //- When body has finished loading, make the body visible.
+  function js_Load(){
+    document.body.style.visibility='visible';
+  }
+
+  //- Get styles from 'style.css' when every thing else has finished loading.
+  var head  = document.getElementsByTagName('head')[0];
+  var link  = document.createElement('link');
+  link.rel  = 'stylesheet';
+  link.type = 'text/css';
+  link.href = '/stylesheets/style.css';
+  link.media = 'all';
+  head.appendChild(link);
+
