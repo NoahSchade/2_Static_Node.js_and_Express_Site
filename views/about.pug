@@ -1,6 +1,14 @@
 extends layout.pug
 
 block content 
+
+  style.
+    @media only screen and (min-width: 1466px) {
+      .bottomBackButton {
+        position: relative;
+        top: 230px;
+      }
+    }
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
@@ -47,7 +55,7 @@ block content
         a.button.expanded.glow(href='https://github.com/NoahSchade') GitHub
         //- a.button.expanded.glow(href='') Twitter
          //- I got some of the code for the buttons that glow from: https://codepen.io/Stockin/pen/XPvpoB.
-  nav.grid-container.portfolio-breadcrumb(href='/' style='position:relative; top:230px;')
+  nav.grid-container.portfolio-breadcrumb.bottomBackButton(href='/')
     a(href='/') ← Back
 
   script(src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous")
