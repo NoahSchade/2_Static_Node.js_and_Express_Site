@@ -62,6 +62,15 @@
             "live_link": "https://sql-library-manager2.herokuapp.com/books",
             "github_link": "https://github.com/NoahSchade/SQL_Library_Manager",
             "image_urls": ["../images/project 8/project 8 main page.png", "../images/project 8/Screenshot (41).png", "../images/project 8/Screenshot (43).png", "../images/project 8/Screenshot (45).png"]
+        },
+        {
+            "id": 7,
+            "project_name": "React Scoreboard App",
+            "description": "React is a JavaScript library for building user interfaces. React makes building and maintaining the user interface of my application faster and easier by breaking it up into smaller, reusable components. It also helps eliminate the complexity that comes with updating my DOM elements when the user interacts with my application.",
+            "technologies": ["HTML", "CSS", "JavaScript", "React"],
+            "live_link": "https://noahs-react-scoreboard-app.netlify.com",
+            "github_link": "https://github.com/NoahSchade/react-scoreboard-app",
+            "image_urls": ["../images/scoreboard/scoreboard main page.png", "../images/scoreboard/Screenshot (197).png", "../images/scoreboard/Screenshot (202).png", "../images/scoreboard/Screenshot (198).png"]
         }
     ]
 }
