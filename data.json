@@ -71,6 +71,15 @@
             "live_link": "https://noahs-react-scoreboard-app.netlify.com",
             "github_link": "https://github.com/NoahSchade/react-scoreboard-app",
             "image_urls": ["../images/scoreboard/scoreboard main page.png", "../images/scoreboard/Screenshot (197).png", "../images/scoreboard/Screenshot (202).png", "../images/scoreboard/Screenshot (198).png"]
+        },
+        {
+            "id": 8,
+            "project_name": "RSVP App",
+            "description": "",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "/live/rsvp",
+            "github_link": "https://github.com/NoahSchade/RSVP-app",
+            "image_urls": ["../images/RSVP/RSVP main page.png", "../images/RSVP/Screenshot (212).png", "../images/RSVP/Screenshot (215).png", "../images/RSVP/Screenshot (211).png"]
         }
     ]
 }

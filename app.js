@@ -9,6 +9,12 @@ app.set('view engine', 'pug');
 
 app.use(express.static('.'));
 
+app.get('/live/rsvp', (req, res) => {
+  res.sendFile('projects/RSVP-app/index.html', {
+      root: path.join(__dirname, './')
+  });
+});
+
 app.get('/live/:num', (req, res) => {
     const projectNum = [req.params.num];
 
