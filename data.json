@@ -80,6 +80,15 @@
             "live_link": "/live/rsvp",
             "github_link": "https://github.com/NoahSchade/RSVP-app",
             "image_urls": ["../images/RSVP/RSVP main page.png", "../images/RSVP/Screenshot (212).png", "../images/RSVP/Screenshot (215).png", "../images/RSVP/Screenshot (211).png"]
+        },
+        {
+            "id": 9,
+            "project_name": "Advanced CSS and Sass Landing Page",
+            "description": "In this project I learned advanced CSS and Sass. I learned a lot of new CSS properties, techniques and features. I learned more animations in CSS, advanced responsive design, SASS architecture, a lot of cool CSS effects, and much more.",
+            "technologies": ["HTML", "CSS", "SCSS/Sass", "JavaScript"],
+            "live_link": "https://noahs-nature-tours-project.netlify.com/",
+            "github_link": "https://github.com/NoahSchade/natours",
+            "image_urls": ["../images/Advanced CSS and Sass Landing Page/Advanced CSS and Sass Landing Page main page.png", "../images/Advanced CSS and Sass Landing Page/Screenshot (51).png", "../images/Advanced CSS and Sass Landing Page/Screenshot (58).png", "../images/Advanced CSS and Sass Landing Page/Screenshot (65).png"]
         }
     ]
 }
