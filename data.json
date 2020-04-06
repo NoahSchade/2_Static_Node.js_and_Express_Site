@@ -1,94 +1,179 @@
 {
-    "projects": [
-        {
-            "id": 0,
-            "project_name": "A Random Quote Generator",
-            "description": "This is my first project on the Techdegree. I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button. I worked with JavaScript arrays, objects and functions.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/live/1",
-            "github_link": "https://github.com/NoahSchade/a_random_quote_generator",
-            "image_urls": ["/images/project 1/project 1 index page.png", "/images/project 1/Screenshot (8).png", "/images/project 1/Screenshot (9).png", "/images/project 1/Screenshot (11).png"]
-        }, 
-        {
-            "id": 1,
-            "project_name": "List Pagination and Filtering",
-            "description": "Displaying a long list of items on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. In this project, I wrote JavaScript to divide a long list into a series of \"pages\" and improve the user experience of a web page. I also added a search bar feature.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/live/2",
-            "github_link": "https://github.com/NoahSchade/2_list_pagination_and_filtering",
-            "image_urls": ["../images/project 2/project 2 index page.png", "../images/project 2/Screenshot (15).png", "../images/project 2/Screenshot (14).png", "../images/project 2/Screenshot (13).png"]
-        },
-        {
-            "id": 2,
-            "project_name": "Interactive Form",
-            "description": "People use forms to collect information from users for many websites and applications. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.  I also made the form more user-friendly by providing helpful error messages when the user enters invalid information into the form fields.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/live/3",
-            "github_link": "https://github.com/NoahSchade/Interactive-Form",
-            "image_urls": ["../images/project 3/project 3 index page.png" , "../images/project 3/Screenshot (18).png", "../images/project 3/Screenshot (19).png", "../images/project 3/Screenshot (21).png"]
-        }, 
-        {
-            "id": 3,
-            "project_name": "OOP Game Show App",
-            "description": "I created a browser-based, word guessing game: \"Phrase Hunter.\" I used JavaScript and OOP (Object-Oriented Programming) to create this game. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard or the computer's keyboard. They have to guess the phrase before they run out of attempts.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/live/4",
-            "github_link": "https://github.com/NoahSchade/OOP-Game-Show-App",
-            "image_urls": ["../images/project 4/project 4 index page.png", "../images/project 4/Screenshot (22).png", "../images/project 4/Screenshot (23).png", "../images/project 4/Screenshot (24).png"]
-        }, 
-        {
-            "id": 4,
-            "project_name": "Public API Requests",
-            "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that I can access and display on my own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/live/5",
-            "github_link": "https://github.com/NoahSchade/Public_API_Requests",
-            "image_urls": ["../images/project 5/project 5 index page.png", "../images/project 5/Screenshot (25).png", "../images/project 5/Screenshot (26).png", "../images/project 5/Screenshot (28).png"]
-        },
-        {
-            "id": 5,
-            "project_name": "React Gallery App",
-            "description": "React is one of the most popular development libraries on the web, which is why React developers are in such great demand. So I improved my  skills and got some valuable practice and experience by using React and the handy Create React App tool to build a fast and lightweight gallery app with a modern approach.",
-            "technologies": ["HTML", "CSS", "JavaScript", "React"],
-            "live_link": "https://react-gallery-app.netlify.com",
-            "github_link": "https://github.com/NoahSchade/react-gallery-app",
-            "image_urls": ["../images/project 7/project 7 main page.png", "../images/project 7/Screenshot (36).png", "../images/project 7/Screenshot (34).png", "../images/project 7/Screenshot (35).png"]
-        },
-        {
-            "id": 6,
-            "project_name": "SQL Library Manager",
-            "description": "Working with databases — storing, retrieving, updating and deleting information — is an important software developer skill. In this project, I created a web application for listing, adding, updating, and deleting books in a library application, using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize.",
-            "technologies": ["HTML", "CSS", "JavaScript", "Express", "Pug", "Node.js", "Sequelize", "SQLite"],
-            "live_link": "https://sql-library-manager2.herokuapp.com/books",
-            "github_link": "https://github.com/NoahSchade/SQL_Library_Manager",
-            "image_urls": ["../images/project 8/project 8 main page.png", "../images/project 8/Screenshot (41).png", "../images/project 8/Screenshot (43).png", "../images/project 8/Screenshot (45).png"]
-        },
-        {
-            "id": 7,
-            "project_name": "React Scoreboard App",
-            "description": "React is a JavaScript library for building user interfaces. React makes building and maintaining the user interface of my application faster and easier by breaking it up into smaller, reusable components. It also helps eliminate the complexity that comes with updating my DOM elements when the user interacts with my application.",
-            "technologies": ["HTML", "CSS", "JavaScript", "React"],
-            "live_link": "https://noahs-react-scoreboard-app.netlify.com",
-            "github_link": "https://github.com/NoahSchade/react-scoreboard-app",
-            "image_urls": ["../images/scoreboard/scoreboard main page.png", "../images/scoreboard/Screenshot (197).png", "../images/scoreboard/Screenshot (202).png", "../images/scoreboard/Screenshot (198).png"]
-        },
-        {
-            "id": 8,
-            "project_name": "RSVP App",
-            "description": "",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "/live/rsvp",
-            "github_link": "https://github.com/NoahSchade/RSVP-app",
-            "image_urls": ["../images/RSVP/RSVP main page.png", "../images/RSVP/Screenshot (212).png", "../images/RSVP/Screenshot (215).png", "../images/RSVP/Screenshot (211).png"]
-        },
-        {
-            "id": 9,
-            "project_name": "Advanced CSS and Sass Landing Page",
-            "description": "In this project I learned advanced CSS and Sass. I learned a lot of new CSS properties, techniques and features. I learned more animations in CSS, advanced responsive design, SASS architecture, a lot of cool CSS effects, and much more.",
-            "technologies": ["HTML", "CSS", "SCSS/Sass", "JavaScript"],
-            "live_link": "https://noahs-nature-tours-project.netlify.com/",
-            "github_link": "https://github.com/NoahSchade/natours",
-            "image_urls": ["../images/Advanced CSS and Sass Landing Page/Advanced CSS and Sass Landing Page main page.png", "../images/Advanced CSS and Sass Landing Page/Screenshot (51).png", "../images/Advanced CSS and Sass Landing Page/Screenshot (58).png", "../images/Advanced CSS and Sass Landing Page/Screenshot (65).png"]
-        }
-    ]
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "A Random Quote Generator",
+      "description": "This is my first project on the Techdegree. I practiced my knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button. I worked with JavaScript arrays, objects and functions.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "/live/1",
+      "github_link": "https://github.com/NoahSchade/a_random_quote_generator",
+      "image_urls": [
+        "/images/project 1/project 1 index page.png",
+        "/images/project 1/Screenshot (8).png",
+        "/images/project 1/Screenshot (9).png",
+        "/images/project 1/Screenshot (11).png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "Displaying a long list of items on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to display a handful of items on one page and provide navigation to jump to a list of more items. In this project, I wrote JavaScript to divide a long list into a series of \"pages\" and improve the user experience of a web page. I also added a search bar feature.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "/live/2",
+      "github_link": "https://github.com/NoahSchade/2_list_pagination_and_filtering",
+      "image_urls": [
+        "../images/project 2/project 2 index page.png",
+        "../images/project 2/Screenshot (15).png",
+        "../images/project 2/Screenshot (14).png",
+        "../images/project 2/Screenshot (13).png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "People use forms to collect information from users for many websites and applications. For this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.  I also made the form more user-friendly by providing helpful error messages when the user enters invalid information into the form fields.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "/live/3",
+      "github_link": "https://github.com/NoahSchade/Interactive-Form",
+      "image_urls": [
+        "../images/project 3/project 3 index page.png",
+        "../images/project 3/Screenshot (18).png",
+        "../images/project 3/Screenshot (19).png",
+        "../images/project 3/Screenshot (21).png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "I created a browser-based, word guessing game: \"Phrase Hunter.\" I used JavaScript and OOP (Object-Oriented Programming) to create this game. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard or the computer's keyboard. They have to guess the phrase before they run out of attempts.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "/live/4",
+      "github_link": "https://github.com/NoahSchade/OOP-Game-Show-App",
+      "image_urls": [
+        "../images/project 4/project 4 index page.png",
+        "../images/project 4/Screenshot (22).png",
+        "../images/project 4/Screenshot (23).png",
+        "../images/project 4/Screenshot (24).png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that I can access and display on my own web pages. Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "/live/5",
+      "github_link": "https://github.com/NoahSchade/Public_API_Requests",
+      "image_urls": [
+        "../images/project 5/project 5 index page.png",
+        "../images/project 5/Screenshot (25).png",
+        "../images/project 5/Screenshot (26).png",
+        "../images/project 5/Screenshot (28).png"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "React Gallery App",
+      "description": "React is one of the most popular development libraries on the web, which is why React developers are in such great demand. So I improved my  skills and got some valuable practice and experience by using React and the handy Create React App tool to build a fast and lightweight gallery app with a modern approach.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "live_link": "https://react-gallery-app.netlify.com",
+      "github_link": "https://github.com/NoahSchade/react-gallery-app",
+      "image_urls": [
+        "../images/project 7/project 7 main page.png",
+        "../images/project 7/Screenshot (36).png",
+        "../images/project 7/Screenshot (34).png",
+        "../images/project 7/Screenshot (35).png"
+      ]
+    },
+    {
+      "id": 6,
+      "project_name": "SQL Library Manager",
+      "description": "Working with databases — storing, retrieving, updating and deleting information — is an important software developer skill. In this project, I created a web application for listing, adding, updating, and deleting books in a library application, using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Express",
+        "Pug",
+        "Node.js",
+        "Sequelize",
+        "SQLite"
+      ],
+      "live_link": "https://sql-library-manager2.herokuapp.com/books",
+      "github_link": "https://github.com/NoahSchade/SQL_Library_Manager",
+      "image_urls": [
+        "../images/project 8/project 8 main page.png",
+        "../images/project 8/Screenshot (41).png",
+        "../images/project 8/Screenshot (43).png",
+        "../images/project 8/Screenshot (45).png"
+      ]
+    },
+    {
+      "id": 7,
+      "project_name": "React Scoreboard App",
+      "description": "React is a JavaScript library for building user interfaces. React makes building and maintaining the user interface of my application faster and easier by breaking it up into smaller, reusable components. It also helps eliminate the complexity that comes with updating my DOM elements when the user interacts with my application.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "live_link": "https://noahs-react-scoreboard-app.netlify.com",
+      "github_link": "https://github.com/NoahSchade/react-scoreboard-app",
+      "image_urls": [
+        "../images/scoreboard/scoreboard main page.png",
+        "../images/scoreboard/Screenshot (197).png",
+        "../images/scoreboard/Screenshot (202).png",
+        "../images/scoreboard/Screenshot (198).png"
+      ]
+    },
+    {
+      "id": 8,
+      "project_name": "RSVP App",
+      "description": "",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "/live/rsvp",
+      "github_link": "https://github.com/NoahSchade/RSVP-app",
+      "image_urls": [
+        "../images/RSVP/RSVP main page.png",
+        "../images/RSVP/Screenshot (212).png",
+        "../images/RSVP/Screenshot (215).png",
+        "../images/RSVP/Screenshot (211).png"
+      ]
+    },
+    {
+      "id": 9,
+      "project_name": "Advanced CSS and Sass Landing Page",
+      "description": "In this project I learned advanced CSS and Sass. I learned a lot of new CSS properties, techniques and features. I learned more animations in CSS, advanced responsive design, SASS architecture, a lot of cool CSS effects, and much more.",
+      "technologies": ["HTML", "CSS", "SCSS/Sass", "JavaScript"],
+      "live_link": "https://noahs-nature-tours-project.netlify.com/",
+      "github_link": "https://github.com/NoahSchade/natours",
+      "image_urls": [
+        "../images/Advanced CSS and Sass Landing Page/Advanced CSS and Sass Landing Page main page.png",
+        "../images/Advanced CSS and Sass Landing Page/Screenshot (51).png",
+        "../images/Advanced CSS and Sass Landing Page/Screenshot (58).png",
+        "../images/Advanced CSS and Sass Landing Page/Screenshot (65).png"
+      ]
+    },
+    {
+      "id": 10,
+      "project_name": "CSS and Sass Flexbox Project",
+      "description": "In this project I learned how to use Flexbox in CSS and Sass. I also learned about custom CSS properties, masks and SVGs.",
+      "technologies": ["HTML", "CSS", "SCSS/Sass"],
+      "live_link": "https://noahs-hotel-booking-app.netlify.com/",
+      "github_link": "https://github.com/NoahSchade/Trillo",
+      "image_urls": [
+        "../images/Flexbox Project/Flexbox Project main page.png",
+        "../images/Flexbox Project/Screenshot (76).png"
+      ]
+    },
+    {
+      "id": 11,
+      "project_name": "CSS and Sass Grid Project",
+      "description": "In this project I learned how to use Grid in CSS and Sass.",
+      "technologies": ["HTML", "CSS", "SCSS/Sass"],
+      "live_link": "https://noahs-real-estate-project.netlify.com/",
+      "github_link": "https://github.com/NoahSchade/Nexter",
+      "image_urls": [
+        "../images/Grid Project/Grid Project main page.png",
+        "../images/Grid Project/Screenshot (78).png",
+        "../images/Grid Project/Screenshot (79).png",
+        "../images/Grid Project/Screenshot (81).png"
+      ]
+    }
+  ]
 }
