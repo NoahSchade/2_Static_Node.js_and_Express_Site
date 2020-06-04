@@ -124,7 +124,7 @@
     {
       "id": 8,
       "project_name": "RSVP App",
-      "description": "This special app uses the localStorage object. Any invitee you put in the app will be saved in your browser but not on the server. The data will not be deleted when the browser is closed and will be available forever until you delete it. To see my project with data that gets saved to a server check out https://sql-library-manager2.herokuapp.com/",
+      "description": "This special app uses the localStorage object. Any invitee you put in the app will be saved in your browser but not on the server. The data will not be deleted when the browser is closed and will be available forever until you delete it. To see my project with data that gets saved to a server check out https://www.noahschade.ca/project/5",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "live_link": "/live/rsvp",
       "github_link": "https://github.com/NoahSchade/RSVP-app",
