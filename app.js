@@ -24,7 +24,7 @@ app.get('/live/:num', (req, res) => {
 });
 
 app.get('/', (req, res) => {     
-    const project = data.projects;
+    const project = data.projects.slice().reverse();
     res.render('index', {
         project: project
     });
@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/project/:id', (req, res) => {
-    const project = data.projects[req.params.id];
+    const project = data.projects.slice().reverse()[req.params.id];
     res.render('project', {
         project_name: project.project_name,
         description: project.description,
