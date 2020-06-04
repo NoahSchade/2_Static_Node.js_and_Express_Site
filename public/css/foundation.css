@@ -2506,7 +2506,7 @@ ul.no-bullet, ol.no-bullet {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #14679e;
+    background-color: #0038d3;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -4682,7 +4682,7 @@ html.is-reveal-open body {
   [data-whatinput='mouse'] .slider-handle {
     outline: 0; }
   .slider-handle:hover {
-    background-color: #14679e; }
+    background-color: #0038d3; }
   .slider-handle.is-dragging {
     transition: all 0s linear; }
 
