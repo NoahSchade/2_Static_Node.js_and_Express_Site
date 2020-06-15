@@ -139,7 +139,7 @@
       "id": 9,
       "project_name": "Advanced CSS and Sass Landing Page",
       "description": "In this project I learned advanced CSS and Sass. I learned a lot of new CSS properties, techniques and features. I learned more animations in CSS, advanced responsive design, SASS architecture, a lot of cool CSS effects, and much more.",
-      "technologies": ["HTML", "CSS", "SCSS/Sass", "JavaScript"],
+      "technologies": ["HTML", "CSS", "SCSS", "Sass", "JavaScript"],
       "live_link": "https://noahs-nature-tours-project.netlify.com/",
       "github_link": "https://github.com/NoahSchade/natours",
       "image_urls": [
@@ -153,7 +153,7 @@
       "id": 10,
       "project_name": "CSS and Sass Flexbox Project",
       "description": "In this project I learned how to use Flexbox in CSS and Sass. I also learned about custom CSS properties, masks and SVGs.",
-      "technologies": ["HTML", "CSS", "SCSS/Sass"],
+      "technologies": ["HTML", "CSS", "SCSS", "Sass"],
       "live_link": "https://noahs-hotel-booking-app.netlify.com/",
       "github_link": "https://github.com/NoahSchade/Trillo",
       "image_urls": [
@@ -165,7 +165,7 @@
       "id": 11,
       "project_name": "CSS and Sass Grid Project",
       "description": "In this project I learned how to use Grid in CSS and Sass.",
-      "technologies": ["HTML", "CSS", "SCSS/Sass"],
+      "technologies": ["HTML", "CSS", "SCSS", "Sass"],
       "live_link": "https://noahs-real-estate-project.netlify.com/",
       "github_link": "https://github.com/NoahSchade/Nexter",
       "image_urls": [
@@ -173,6 +173,20 @@
         "../images/Grid Project/Screenshot (78).png",
         "../images/Grid Project/Screenshot (79).png",
         "../images/Grid Project/Screenshot (81).png"
+      ]
+    },
+    {
+      "id": 12,
+      "project_name": "React Social Network App",
+      "description": "This app has a signup, sign in, sign out, deactivate account feature. It has email verification, password protection, image uploading, account information editing, search, follow, adding likes, and a publishing notes feature. It also allows you to see the number of notes you have posted, the number of followers you have, the number of people you are following, and the number of profile views you have. It allows you to see which users are following you and which users you are following.",
+      "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "React", "Redux", "Node.js", "Express", "BlueBird.js", "SQL", "MySQL database", "Heroku"],
+      "live_link": "https://noahs-react-app.herokuapp.com/",
+      "github_link": "https://github.com/NoahSchade",
+      "image_urls": [
+        "../images/noahs-react-app/noahs-react-app project main page.png",
+        "../images/noahs-react-app/Screenshot (327).png",
+        "../images/noahs-react-app/Screenshot (302).png",
+        "../images/noahs-react-app/Screenshot (298).png"
       ]
     }
   ]
