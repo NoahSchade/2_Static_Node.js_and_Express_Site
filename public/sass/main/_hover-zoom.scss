@@ -1,0 +1,23 @@
+.boundary {
+  border: solid 4px #fefefe;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  overflow: hidden;
+}
+
+.portfolio-index .projectImg {
+  margin: 0;
+}
+
+.projectImg {
+  transition: transform .5s;
+  box-shadow: none;
+  border: solid 0 white;
+  padding: 0;
+  margin: 0;
+}
+
+.projectImg:hover {
+  overflow: hidden;
+  transform: scale(1.2);
+}
+

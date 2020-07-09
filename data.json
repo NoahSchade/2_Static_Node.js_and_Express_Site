@@ -177,20 +177,6 @@
     },
     {
       "id": 12,
-      "project_name": "React Social Network App",
-      "description": "This app has a signup, sign in, sign out, deactivate account feature. It has email verification, password protection, image uploading, account information editing, search, follow, adding likes, and a publishing notes feature. It also allows you to see the number of notes you have posted, the number of followers you have, the number of people you are following, and the number of profile views you have. It allows you to see which users are following you and which users you are following.",
-      "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "React", "Redux", "Node.js", "Express", "BlueBird.js", "SQL", "MySQL database", "Heroku"],
-      "live_link": "https://noahs-react-app.herokuapp.com/",
-      "github_link": "https://github.com/NoahSchade",
-      "image_urls": [
-        "../images/noahs-react-app/noahs-react-app project main page.png",
-        "../images/noahs-react-app/Screenshot (327).png",
-        "../images/noahs-react-app/Screenshot (302).png",
-        "../images/noahs-react-app/Screenshot (298).png"
-      ]
-    },
-    {
-      "id": 13,
       "project_name": "Schadeconnect Social Network",
       "description": "This app has a signup, sign in, sign out, deactivate account feature. It has email verification, password protection, image uploading, account information editing, search, follow, adding likes, and a posting feature. It also allows you to see your number of posts, the number of followers you have, the number of people you are following, the number of recommendations you have, and the number of profile views you have. It allows you to see which users are following you, which users you are following, and what are the recommendations you have. It has notifications, groups, favorites, an image gallery, bookmarks, messaging, and an explore feature, and much more.",
       "technologies": ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js", "Express", "SQL", "MySQL database", "Heroku"],

@@ -1,0 +1,41 @@
+.glow {
+  position: relative;
+  display: block;
+  text-align: center;
+  transition: .5s;
+  border-radius: 10px;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:10px;
+    /* background: #0038d3; */
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  &:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #0038d3;
+    filter: blur(3px);
+  }
+  
+  &:hover {
+    color: #fefefe;
+    box-shadow: 0 0 15px #0038d3;
+    text-shadow: 0 0 15px #0038d3;
+  }
+}
+
+@media only screen and (max-width: 64em) {
+  .button.expanded.glow {
+    display: block;
+    background-color: red !important;
+    width: 120%;
+  }
+}

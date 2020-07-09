@@ -1,68 +1,11 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Rubik:900");
-.glow {
-  position: relative;
-  display: block;
-  text-align: center;
-  transition: .5s;
-  border-radius: 10px; }
-  .glow:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    /* background: #0038d3; */
-    transition: .5s;
-    transform: scale(0.9);
-    z-index: -1; }
-  .glow:hover:before {
-    transform: scale(1.2);
-    box-shadow: 0 0 15px #0038d3;
-    filter: blur(3px); }
-  .glow:hover {
-    color: #fefefe;
-    box-shadow: 0 0 15px #0038d3;
-    text-shadow: 0 0 15px #0038d3; }
-
-@media only screen and (max-width: 64em) {
-  .button.expanded.glow {
-    display: block;
-    background-color: red !important;
-    width: 120%; } }
-
-.lobsterFont {
-  font-family: 'Lobster Two', cursive; }
-
-p.lead.text-light {
-  font-family: 'Open Sans', sans-serif;
-  text-align: justify; }
-
-.portfolio-me a {
-  color: #999; }
-
-.portfolio-me a:hover {
-  color: #fff; }
-
-.portfolio-bio {
-  text-align: justify; }
-
-@media only screen and (max-width: 640px) {
-  p.lead.text-light {
-    text-align: left; } }
-
-@media only screen and (max-width: 1460px) {
-  .chart {
-    display: none; } }
-
 /**
  * Foundation for Sites by ZURB
  * Version 6.4.2
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import url("https://fonts.googleapis.com/css?family=Rubik:900");
 @media print, screen and (min-width: 40em) {
   .reveal, .reveal.tiny, .reveal.small, .reveal.large {
     right: auto;
@@ -6359,42 +6302,6 @@ a.thumbnail image {
 .long-delay {
   animation-delay: 700ms !important; }
 
-.boundary {
-  border: solid 4px #fefefe;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-  overflow: hidden; }
-
-.portfolio-index .projectImg {
-  margin: 0; }
-
-.projectImg {
-  transition: transform .5s;
-  box-shadow: none;
-  border: solid 0 white;
-  padding: 0;
-  margin: 0; }
-
-.projectImg:hover {
-  overflow: hidden;
-  transform: scale(1.2); }
-
-.letterPopUp {
-  text-transform: Uppercase;
-  margin-bottom: .5em;
-  font-family: 'Rubik', sans-serif;
-  color: #E4E5E6; }
-
-.letterPopUp {
-  position: relative;
-  background: linear-gradient(to right, #24243e, #141E30, #0f0c29);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), 20px 20px 20px rgba(0, 0, 0, 0.4), 30px 30px 30px rgba(0, 0, 0, 0.1); }
-
-.letterPopUp {
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
 h1, h2, h3, h4, h5, p {
   font-family: 'Merriweather', serif; }
 
@@ -6688,3 +6595,96 @@ span {
 @keyframes type {
   to {
     width: 17em; } }
+
+.letterPopUp {
+  text-transform: Uppercase;
+  margin-bottom: .5em;
+  font-family: 'Rubik', sans-serif;
+  color: #E4E5E6; }
+
+.letterPopUp {
+  position: relative;
+  background: linear-gradient(to right, #24243e, #141E30, #0f0c29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5), 20px 20px 20px rgba(0, 0, 0, 0.4), 30px 30px 30px rgba(0, 0, 0, 0.1); }
+
+.letterPopUp {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.glow {
+  position: relative;
+  display: block;
+  text-align: center;
+  transition: .5s;
+  border-radius: 10px; }
+  .glow:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* background: #0038d3; */
+    transition: .5s;
+    transform: scale(0.9);
+    z-index: -1; }
+  .glow:hover:before {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #0038d3;
+    filter: blur(3px); }
+  .glow:hover {
+    color: #fefefe;
+    box-shadow: 0 0 15px #0038d3;
+    text-shadow: 0 0 15px #0038d3; }
+
+@media only screen and (max-width: 64em) {
+  .button.expanded.glow {
+    display: block;
+    background-color: red !important;
+    width: 120%; } }
+
+.boundary {
+  border: solid 4px #fefefe;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  overflow: hidden; }
+
+.portfolio-index .projectImg {
+  margin: 0; }
+
+.projectImg {
+  transition: transform .5s;
+  box-shadow: none;
+  border: solid 0 white;
+  padding: 0;
+  margin: 0; }
+
+.projectImg:hover {
+  overflow: hidden;
+  transform: scale(1.2); }
+
+.lobsterFont {
+  font-family: 'Lobster Two', cursive; }
+
+p.lead.text-light {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify; }
+
+.portfolio-me a {
+  color: #999; }
+
+.portfolio-me a:hover {
+  color: #fff; }
+
+.portfolio-bio {
+  text-align: justify; }
+
+@media only screen and (max-width: 640px) {
+  p.lead.text-light {
+    text-align: left; } }
+
+@media only screen and (max-width: 1460px) {
+  .chart {
+    display: none; } }

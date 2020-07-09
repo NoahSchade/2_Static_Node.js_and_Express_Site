@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:900');
+
+.letterPopUp {
+  text-transform: Uppercase;
+  margin-bottom: .5em;
+  font-family: 'Rubik', sans-serif;
+  color: #E4E5E6; 
+}
+
+.letterPopUp {
+  position: relative;
+  background: linear-gradient(to right, #24243e, #141E30, #0f0c29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  text-shadow: 10px 10px 10px rgba(0,0,0,.5), 20px 20px 20px rgba(0,0,0,.4), 30px 30px 30px rgba(0,0,0,.1);
+}
+
+.letterPopUp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

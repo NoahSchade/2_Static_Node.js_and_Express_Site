@@ -5,7 +5,14 @@
   "description": "This is a project for learning the backend part of the JavaScript language. It is also used to showcase the other projects I've built.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "watch:sass": "node-sass public/sass/main.scss public/css-from-scss/style.css -w",
+    "devserver": "nodemon",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "dev-start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass public/sass/main.scss public/css-from-scss/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" public/css-from-scss/style.comp.css -o public/css-from-scss/style.prefix.css",
+    "compress:css": "node-sass public/css-from-scss/style.prefix.css public/css-from-scss/style.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "repository": {
     "type": "git",
@@ -26,5 +33,11 @@
     "express": "^4.16.4",
     "nodemon": "^1.18.11",
     "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
   }
 }

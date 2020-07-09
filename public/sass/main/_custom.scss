@@ -1,0 +1,33 @@
+.lobsterFont {
+    font-family: 'Lobster Two', cursive;
+}
+
+p.lead.text-light {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.portfolio-me a {
+    color: #999;
+}
+
+.portfolio-me a:hover {
+    color: #fff;
+}
+
+.portfolio-bio {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 640px) {
+    p.lead.text-light {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1460px) {
+    .chart {
+        display: none;
+    }
+}
+  
